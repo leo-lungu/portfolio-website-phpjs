@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Add Post</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/script.js"></script>
 </head>
 <body>
     <header class="top">
@@ -32,20 +33,32 @@
                         ?>
                         <li class="login"><a href="login.html">Login</a></li>
                     <?php } ?>
-                </div>  
+                </div>    
             </ul>
         </nav>
     </header>
     <div class="parallax1">
-        <fieldset class="fieldaround" style="margin-bottom: auto">
-            <legend>Leonard Lungu</legend>
-                <img id="me" src="images/me.jpeg" alt="me!">
-                <h1 style="color: white; margin-bottom: 10px" id="me">Hey there!</h1>
-                <p style="color: white">I am a BSc Computer Science student at Queen Mary University of London. I am passionate about software engineering and web development. I love to pay attention to detail and to put my creativity to work. I have programmed for a few years now, including programming languages such as Java and Python. I also have experience in used HTML, CSS, JavaScript and php.</p>
-        </fieldset>
+        <div id="h1img">
+            <fieldset class="fieldaround">
+            <legend>Blog Post</legend>
+                <form id="addblog" action="addPost.php" method="POST" >
+                    <h1 style="font-size: 250%; color:white">Add a new post</h1>
+                    <p style="font-size: 70%; color:lightgrey">Hope all the readers will like this post!</p>
+                    <input type="text" placeholder="Title" name="title" id="title" required>  <br>  
+                    <textarea rows="4" placeholder="Add blog content here" cols="50" name="comment" id="comment" required></textarea> <br> 
+                    <button type="submit" onclick="defaultPrevention();">Post</button>
+                    <button onclick = "return confirmClear();" type="reset">Clear</button> 
+                    <button type="submit" onclick="defaultPrevention();" formaction="/viewPreview.php">Preview</button>
+                </form>     
+            </fieldset>
+            
+        </div>
+    </div>    
     </div>
+    <aside>
+    </aside>
     <footer class="bottom">
-        <nav style="text-align: center">
+    <nav style="text-align: center">
             <ul>
                 <a href="https://github.com/leo-lungu"><img class="contactmebutton" src="images/github.png"></a>
                 <li class="footercontact">https://github.com/leo-lungu</li>

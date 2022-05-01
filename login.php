@@ -1,6 +1,6 @@
 <?php 
 include "connection.php";
-    
+session_start();
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $email = $_POST['email'];    
         $password = $_POST['password'];
@@ -11,12 +11,12 @@ include "connection.php";
           while($row = $result->fetch_assoc()) {
             $_SESSION['email'] = $email;
             $_SESSION['password'] = $password;
-            header('Location: addpost.html');
+            header('Location: add.php');
           }
         } else {
             echo "<script>
-            alert('Wrong username/password');
             window.location.href='login.html';
+            alert('Wrong username/password');
             </script>";
         }
     }    

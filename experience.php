@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Experience</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -32,18 +32,48 @@
                         ?>
                         <li class="login"><a href="login.html">Login</a></li>
                     <?php } ?>
-                </div>  
+                </div>   
             </ul>
         </nav>
     </header>
-    <div class="parallax1">
-        <fieldset class="fieldaround" style="margin-bottom: auto">
-            <legend>Leonard Lungu</legend>
-                <img id="me" src="images/me.jpeg" alt="me!">
-                <h1 style="color: white; margin-bottom: 10px" id="me">Hey there!</h1>
-                <p style="color: white">I am a BSc Computer Science student at Queen Mary University of London. I am passionate about software engineering and web development. I love to pay attention to detail and to put my creativity to work. I have programmed for a few years now, including programming languages such as Java and Python. I also have experience in used HTML, CSS, JavaScript and php.</p>
-        </fieldset>
+    <div class="parallax1 asidemain">
+        <section id="fieldset">
+            <fieldset class="fieldaround">
+                <legend>2019-2021</legend>
+                <img id="me" src="images/ikea.png" alt="me!">
+                <h1 style="color: white">IKEA</h1> 
+                <p>Increased customer satisfaction by resolving service issues.</p>
+                <p>Actively listened to customers' requests, confirming full understanding before addressing concerns.</p>            </p>
+                <p>Carried out duties accurately and efficiently.</p>
+                <p>Delivered orders to customers within specific timeframes during the pandemic.</p>
+            </fieldset>
+            <br id="break">
+            <fieldset class="fieldaround">
+                <legend>2018-2019</legend>
+                <img id="me" src="images/gateway.png" alt="me!">
+                <h1 style="color: white">Gateway 97.8</h1> 
+                <p>Undertaking general research for radio programmes.</p>
+                <p>Producing transcripts, programme logs and running orders.</p>
+                <p>Editing audio packages with digital editing software.</p>
+                <p>Responding to technical faults and repairing them.</p>
+            </fieldset>
+        </section>
     </div>
+    <aside>
+        <fieldset class="fieldaround" style="margin-top: 3.5em">
+            <legend>Future</legend>
+            <img id="me" src="images/me.jpeg" style="display: block; margin-left: 8%"alt="me!">
+            <h1 style="color: white">Software Developer</h1> 
+            <br>
+            <p>I'm looking for internships in software developing and engineering!</p>
+            <br>
+            <p>I'm also interested in financial technology and web developing.</p>
+            <br>
+            <p>On the Projects page you can find some of my projects and other things I've done related to Computer Science.</p>
+            <br>
+            <p>To fully view my skills, check out the skills page!</p>
+        </fieldset>
+    </aside>
     <footer class="bottom">
         <nav style="text-align: center">
             <ul>
@@ -60,3 +90,6 @@
     </footer>
 </body>
 </html>
+
+
+

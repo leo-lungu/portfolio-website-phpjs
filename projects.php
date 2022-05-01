@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Projects</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -32,16 +32,40 @@
                         ?>
                         <li class="login"><a href="login.html">Login</a></li>
                     <?php } ?>
-                </div>  
+                </div>    
             </ul>
         </nav>
     </header>
-    <div class="parallax1">
-        <fieldset class="fieldaround" style="margin-bottom: auto">
-            <legend>Leonard Lungu</legend>
-                <img id="me" src="images/me.jpeg" alt="me!">
-                <h1 style="color: white; margin-bottom: 10px" id="me">Hey there!</h1>
-                <p style="color: white">I am a BSc Computer Science student at Queen Mary University of London. I am passionate about software engineering and web development. I love to pay attention to detail and to put my creativity to work. I have programmed for a few years now, including programming languages such as Java and Python. I also have experience in used HTML, CSS, JavaScript and php.</p>
+    <div class="parallax1 asidemain">
+        <fieldset class="fieldaround">
+            <legend>Java Procedural Programming</legend>
+            <img id="me" src="images/java.png" alt="me!">
+            <h1 style="color: white">Pet Game</h1> 
+            <p>I created a game using several hundreds of codes 
+                and several libraries where a user had to take 
+                care of their pet. They were able to play with 
+                them, feed them and pet them. The game was based 
+                on 5 rounds. The user must make sure that the pet 
+                survives until the end.</p>
+            <p>If the user lost, they would be given their final 
+                score and were able to try and play again if they wished.</p>
+        </fieldset>
+        <fieldset class="fieldaround">
+            <legend>HTML, CSS, JavaScript and PHP</legend>
+            <img id="me" src="images/html.png" alt="me!">
+            <h1 style="color: white">Portfolio Website</h1> 
+            <p>Made this portfolio website using HTML, CSS, JavaScript and PHP. 
+                The website was split into 2 phases. The Front End phase was 
+                HTML and CSS, where I created the interface and the general 
+                layout of the website and how it looks. The second phase was 
+                JavaScript and PHP, where I made sure the login form worked, 
+                and that I would be able to post blogs to the website.</p>
+        </fieldset>
+        <fieldset class="fieldaround">
+            <legend>2015-2019</legend>
+            <img id="me" src="images/java.png" alt="me!">
+            <h1 style="color: white">Java Object Oriented Programming</h1> 
+            <p>On going project in Java using Object Oriented Programming.
         </fieldset>
     </div>
     <footer class="bottom">
@@ -60,3 +84,11 @@
     </footer>
 </body>
 </html>
+
+
+
+
+
+
+
+

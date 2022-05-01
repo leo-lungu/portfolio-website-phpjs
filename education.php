@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Education</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -32,18 +32,47 @@
                         ?>
                         <li class="login"><a href="login.html">Login</a></li>
                     <?php } ?>
-                </div>  
+                </div>    
             </ul>
         </nav>
     </header>
-    <div class="parallax1">
-        <fieldset class="fieldaround" style="margin-bottom: auto">
-            <legend>Leonard Lungu</legend>
-                <img id="me" src="images/me.jpeg" alt="me!">
-                <h1 style="color: white; margin-bottom: 10px" id="me">Hey there!</h1>
-                <p style="color: white">I am a BSc Computer Science student at Queen Mary University of London. I am passionate about software engineering and web development. I love to pay attention to detail and to put my creativity to work. I have programmed for a few years now, including programming languages such as Java and Python. I also have experience in used HTML, CSS, JavaScript and php.</p>
+    <div class="parallax1 asidemain">
+        <fieldset class="fieldaround">
+            <legend>2021-Current</legend>
+            <img id="me" src="images/qmul.png" alt="me!">
+            <h1 style="color: white">Queen Mary, University of London</h1> 
+            <p>Experience in Procedural Programming and Object Oriented Programming in Java, as well as HTML and CSS.</p>
+            <p>Coursework grades for Semester A: Computer Systems and Networks (95%), Logic and Discrete Structures (84%), Professional and Research Practice (95%), Procedural Programming (76%).</p>
+            <p>Predicted a First Class degree.</p>
+        </fieldset>
+        <fieldset class="fieldaround">
+            <legend>2019-2021</legend>
+            <img id="me" src="images/harris.png" alt="me!">
+            <h1 style="color: white">Harris Academy Chafford Hundred</h1> 
+            <p>Studied Mathematics, Further Mathematics, Business, Law.</p>
+            <p>Took part in extracurricular activities related to businesses and charity work.            </p>
+        </fieldset>
+        <fieldset class="fieldaround">
+            <legend>2015-2019</legend>
+            <img id="me" src="images/toa.jpg" alt="me!">
+            <h1 style="color: white">The Ockendon Academy</h1> 
+            <p>Achieved nine GCSEs and a Level 2 vocational qualification in Financial Studies.</p>
+            <p>Took part in UK Mathematics Trust challenges three years in a row.</p>
+            <p>Took part in Thurrock's Next Top Boss.</p>
+            <p>Class Ambassador for Mathematics.</p>
+            <p>Completed a GCSE Computer Science course on a dice game.</p>
         </fieldset>
     </div>
+    <aside>
+        <fieldset class="fieldaround" style="margin-top: 11.5em">
+            <legend>Qualifications</legend>
+            <p>9 GCSEs</p>
+            <p>Level 2 Finance NVQ</p>
+            <p>4 A-Levels</p>
+            <p>Working Towards BSc</p>
+            <p>Level 1 H&S NVQ</p>
+        </fieldset>
+    </aside>
     <footer class="bottom">
         <nav style="text-align: center">
             <ul>
@@ -60,3 +89,11 @@
     </footer>
 </body>
 </html>
+
+
+
+
+
+
+
+

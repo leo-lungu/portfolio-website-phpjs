@@ -1,10 +1,9 @@
-<?php
-    $servername = "localhost:3306";
+<?php 
+    $servername = "localhost";
     $username = "root";
-    $password = "root";
+    $password = "";
     $dbname = "bloggers";
 
-    session_start();
 
     // Creates connection
     $conn = new mysqli($servername, $username, $password, $dbname);
