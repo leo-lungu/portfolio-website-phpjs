@@ -2,4 +2,4 @@
 
 Queen Mary University of London 
 Fundamentals of Web Technology module
-Final Courseworth worth 70%
+Final Coursework worth 70%
